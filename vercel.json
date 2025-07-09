@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "app/api/export/route.ts": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
+    }
+  ]
+}
